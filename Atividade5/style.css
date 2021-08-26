@@ -1,0 +1,53 @@
+:root {
+  --margin: 10px;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #0c1618;
+  color: #faf4d3;
+  margin: 0px 100px 50px;
+}
+
+a {
+  color: #faf4d3;
+}
+
+.container-box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box {
+  border-radius: 5px;
+  margin: var(--margin);
+  height: 50px;
+}
+
+.titulo {
+  width: calc((100%/1) - (var(--margin)* 2));
+}
+
+.links {
+  width: calc((100%/3) - (var(--margin)* 2));
+  padding: 20px 0px;
+}
+
+.lateral {
+  width: calc((100%/4) - (var(--margin)* 2));
+  text-align: left;
+}
+
+.principal {
+  width: calc((100%/2) - (var(--margin)* 2));
+  text-align: left;
+}
+
+.principal p {
+  padding: 0px 70px;
+}
+
+.principal h4 {
+  padding: 0px 70px;
+}
